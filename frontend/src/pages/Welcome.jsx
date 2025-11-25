@@ -303,7 +303,7 @@ const WelcomePage = () => {
               // Removed disabled={!allContentVisible}
             >
               {/* CSS for gradient animation */}
-              <style jsx>{`
+              <style>{`
                 @keyframes gradientShift {
                   0% { background-position: 0% 50%; }
                   50% { background-position: 100% 50%; }
